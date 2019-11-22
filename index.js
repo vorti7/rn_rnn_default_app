@@ -1,16 +1,3 @@
-import { Navigation } from "react-native-navigation";
-import App from "./App";
+import { Navigator, ScreenConst } from './src/navigation'
 
-import IntroScreen from "./src/screen/introScreen"
-
-Navigation.registerComponent("Intro", () => IntroScreen);
-
-Navigation.events().registerAppLaunchedListener(() => {
-  Navigation.setRoot({
-    root: {
-      component: {
-        name: "Intro"
-      }
-    }
-  });
-});
+Navigator.startApp()
