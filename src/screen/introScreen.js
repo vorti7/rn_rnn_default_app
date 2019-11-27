@@ -21,7 +21,7 @@ export default (props) => {
 
     useState(() => {
         return timer = setTimeout(() => {
-            screenFunc(1)
+            screenFunc(2)
         }, 3000)
     })
 

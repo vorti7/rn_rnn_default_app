@@ -8,6 +8,8 @@ export default {
         Navigation.registerComponent(Const.TV_INTRO, () => Screen.IntroScreen);
         Navigation.registerComponent(Const.TV_LOGIN, () => Screen.LoginScreen);
         Navigation.registerComponent(Const.TV_MAIN, () => Screen.MainScreen);
+
+        Navigation.registerComponent(Const.TV_TEST, () => Screen.TestScreen)
     },
 
     startApp() {
